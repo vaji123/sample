@@ -202,7 +202,7 @@ public class CompleteProject {
 		 
 		 PreparedStatement preparedStmt = con.prepareStatement(query);
 		 
-		 // binding values
+		 // binding values to code
 		 
 		 preparedStmt.setInt(1, Integer.parseInt(proj_id));
 		 
