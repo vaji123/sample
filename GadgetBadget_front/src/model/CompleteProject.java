@@ -59,6 +59,7 @@ public class CompleteProject {
 
 				preparedStmt.execute();
 				con.close();
+				//display output
 				String newproject = readCompleteProjects(); 
 				output = "{\"status\":\"success\", \"data\": \"" +  newproject + "\"}"; 
 			}
@@ -172,6 +173,7 @@ public class CompleteProject {
 		 
 		 preparedStmt.execute();
 		 con.close();
+			//display output
 		 String newproject = readCompleteProjects(); 
 			output = "{\"status\":\"success\", \"data\": \"" +  newproject + "\"}";
 		 
@@ -208,6 +210,7 @@ public class CompleteProject {
 		 
 		 preparedStmt.execute();
 		 con.close();
+			//display output
 		 String newproject = readCompleteProjects(); 
 			output = "{\"status\":\"success\", \"data\": \"" +  newproject + "\"}";
 		 }

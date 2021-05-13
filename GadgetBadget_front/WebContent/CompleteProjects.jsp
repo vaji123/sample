@@ -35,11 +35,11 @@ pageEncoding="ISO-8859-1"%>
 <div id="alertSuccess" class="alert alert-success"></div>
 <div id="alertError" class="alert alert-danger"></div>
 <br>
-<div id="divItemsGrid">
- <%
- CompleteProject project = new CompleteProject(); 
- out.print(project.readCompleteProjects()); 
- %>
+	<div id="divItemsGrid">
+ 		<%
+ 			CompleteProject project = new CompleteProject(); 
+ 			out.print(project.readCompleteProjects()); 
+ 		%>
 </div>
 </div> </div> </div> 
 </body>
