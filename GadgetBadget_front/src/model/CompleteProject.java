@@ -25,6 +25,7 @@ public class CompleteProject {
 		 return con;
 		 }
 
+	//insert operation
 		public String insertCompleteProjects(String rid, String code, String name, String desc, String skills, String pay_method, String budget)
 		 {
 			String output = "";
