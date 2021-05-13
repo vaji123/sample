@@ -15,7 +15,7 @@ import java.util.Scanner;
 /**
  * Servlet implementation class ItemsAPI
  */
-@WebServlet("/ResearcherAPI")
+@WebServlet("/CompleteProjectAPI")
 public class CompleteProjectAPI extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	

@@ -25,7 +25,7 @@ if (status != true)
 var type = ($("#hidItemIDSave").val() == "") ? "POST" : "PUT"; 
  $.ajax( 
  { 
- url : "ResearcherAPI", 
+ url : "CompleteProjectAPI", 
  type : type, 
  data : $("#formItem").serialize(), 
  dataType : "text", 
@@ -80,7 +80,7 @@ $(document).on("click", ".btnRemove", function(event)
 { 
  $.ajax( 
  { 
- url : "ResearcherAPI", 
+ url : "CompleteProjectAPI", 
  type : "DELETE", 
  data : "proj_id=" + $(this).data("itemid"),
  dataType : "text", 
