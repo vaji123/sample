@@ -14,7 +14,7 @@ pageEncoding="ISO-8859-1"%>
 <div class="container"><div class="row"><div class="col-6"> 
 <h1>Add Complete Projects</h1>
 <form id="formItem" name="formItem">
- RID: 
+ RID123: 
  <input id="rid" name="rid" type="text" class="form-control form-control-sm">
  <br> Project Code: 
  <input id="proj_code" name="proj_code" type="text" class="form-control form-control-sm">
