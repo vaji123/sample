@@ -59,7 +59,8 @@ public class CompleteProject {
 
 				preparedStmt.execute();
 				con.close();
-				output = "Inserted successfully";
+				String newproject = readCompleteProjects(); 
+				output = "{\"status\":\"success\", \"data\": \"" +  newproject + "\"}"; 
 			}
 			catch (Exception e)
 			{
@@ -171,7 +172,9 @@ public class CompleteProject {
 		 
 		 preparedStmt.execute();
 		 con.close();
-		 output = "Updated successfully";
+		 String newproject = readCompleteProjects(); 
+			output = "{\"status\":\"success\", \"data\": \"" +  newproject + "\"}";
+		 
 		 }
 		 catch (Exception e)
 		 {
@@ -205,7 +208,8 @@ public class CompleteProject {
 		 
 		 preparedStmt.execute();
 		 con.close();
-		 output = "Deleted successfully";
+		 String newproject = readCompleteProjects(); 
+			output = "{\"status\":\"success\", \"data\": \"" +  newproject + "\"}";
 		 }
 		 catch (Exception e)
 		 {
