@@ -206,7 +206,7 @@ public class CompleteProject {
 		 
 		 preparedStmt.setInt(1, Integer.parseInt(proj_id));
 		 
-		 // execute the statement
+		 // execute the statement to code
 		 
 		 preparedStmt.execute();
 		 con.close();
